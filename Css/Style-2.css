@@ -1,0 +1,534 @@
+body {
+    background-position: center;
+    margin-left: 800px;
+    margin-right: -800px;
+    width: 100%;
+}
+
+
+/*header du site web*/
+
+header {
+    background-image: url(./Images/header_bg.jpg);
+    background-position: center;
+    margin: 0vh;
+}
+
+
+/*Mettre en place la barre de navigation*/
+
+nav {
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: #2a2a2e;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 30vh;
+    padding-right: 40vh;
+    border-bottom-style: solid;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 5vh;
+}
+
+#Menu img {
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 20vh;
+    padding-left: 40vh;
+}
+
+#It {
+    color: rgb(14, 128, 103);
+    text-decoration-line: underline;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20vh;
+}
+
+section {
+    margin: 0vh;
+}
+
+
+/*Premier section de la page*/
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+    font-family: Open Sans, Arial, sans-serif;
+    margin-left: -50px;
+    padding-bottom: -20px;
+}
+
+#Title,
+h2 small {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(14, 128, 103);
+    font-family: Raleway, Arial, sans-serif;
+    padding-top: 0%;
+    padding-right: 3vh;
+}
+
+#Introduction p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Raleway, Arial, sans-serif;
+    margin-left: -110px;
+    padding-left: 8vh;
+}
+
+#btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(44, 138, 118);
+    color: #fff;
+    margin-left: 580px;
+    margin-right: 550px;
+    margin-bottom: 50px;
+}
+
+#ordinateur {
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+    margin-left: 33vh;
+    width: 135vh;
+}
+
+
+/*Deuxième section les médias*/
+
+#Medias {
+    background-color: rgb(240, 238, 238);
+    background-position-y: center;
+}
+
+.col-row {
+    margin-left: 20vh;
+    margin-right: 4vh;
+    padding: 2vh;
+    display: inline-flex;
+    text-align: center;
+}
+
+.col-row>.col-icône img {
+    width: 60%;
+    margin: 5vh;
+    padding-left: 2vh;
+}
+
+h3 {
+    color: rgb(44, 138, 118);
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    text-align: center;
+    padding-top: -80px;
+    padding-bottom: 50px;
+}
+
+
+/*Troisième section New App*/
+
+#NewApp {
+    background-color: #FFFFFF;
+    padding-bottom: 40px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+#Black,
+h2 {
+    color: rgb(87, 83, 83);
+    margin-top: 0px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#NewApp p {
+    color: grey;
+    padding-left: 2vh;
+    padding-top: 3vh;
+}
+
+
+/*Quatrième section Awesomeness*/
+
+#Awesomeness {
+    background-image: url(./Images/map_bg.png);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+}
+
+.container {
+    text-align: center;
+    padding-left: 4vh;
+}
+
+#Paragraphe1 {
+    text-align: justify;
+    padding-bottom: 8vh;
+    padding-left: 5vh;
+    margin-top: 4vh;
+}
+
+#Paragraphe1 p {
+    padding-left: 23vh;
+    padding-top: 1vh;
+}
+
+#Paragraphe1 img {
+    padding-bottom: 2vh;
+    padding-left: 25vh;
+}
+
+#Paragraphe1 figcaption {
+    float: right;
+    margin-top: -1vh;
+    margin-right: 2vh;
+    padding-bottom: 2vh;
+}
+
+#Paragraphe2 {
+    padding-top: -1vh;
+    margin-right: -1vh;
+    padding-left: -10vh;
+}
+
+#Paragraphe2 figcaption {
+    margin-top: -32vh;
+}
+
+#Paragraphe3 {
+    text-align: justify;
+    padding-bottom: 8vh;
+    margin-top: 4vh;
+}
+
+#Paragraphe3 img {
+    padding-bottom: 1vh;
+    margin-left: -4vh;
+}
+
+#Paragraphe3 p {
+    padding-right: 20vh;
+    padding-left: 0vh;
+    padding-top: 1vh;
+}
+
+#Paragraphe3 figcaption {
+    float: left;
+    margin-top: 0vh;
+    padding-right: 10vh;
+    padding-bottom: 2vh;
+}
+
+#Awesomeness p {
+    color: grey;
+    padding-top: 0px;
+    text-align: justify;
+    margin-bottom: 4vh;
+}
+
+
+/*Cinquième section Avatar*/
+
+#Avatar {
+    background-image: url(./Images/seperator1-.jpg);
+    padding-top: 3vh;
+}
+
+#Rond {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#Avatar h3 {
+    color: rgb(44, 138, 118);
+    text-align: center;
+    margin-bottom: 0vh;
+}
+
+#Avatar p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin-left: 2vh;
+}
+
+
+/*Sixième section Screenshots*/
+
+#Screenshots {
+    background-color: rgb(243, 239, 239);
+    margin-top: 0px;
+}
+
+#Screenshots h2 {
+    color: rgb(87, 83, 83);
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+    margin-right: 94vh;
+}
+
+#Rectangle {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    padding-left: 25vh;
+}
+
+#Rectangle img {
+    width: 43vh;
+    text-align: center;
+    padding: -10vh;
+}
+
+#Rectangle figcaption {
+    text-align: left;
+    padding-left: 6vh;
+    padding-top: 4vh;
+    padding-bottom: 7vh;
+}
+
+#Block1 {
+    width: 30%;
+}
+
+#Block2 {
+    width: 30%;
+}
+
+#Block3 {
+    width: 30%;
+}
+
+
+/*Septième section PLay*/
+
+#Play {
+    background-color: #FFFFFF;
+    margin-top: 0vh;
+    width: 100%;
+    margin-left: 10vh;
+    display: inline-flex;
+    padding-bottom: 4vh;
+}
+
+#Machine {
+    width: 44%;
+    padding-top: 8vh;
+    margin-right: 0vh;
+}
+
+#Machine figure {
+    padding-left: 30vh;
+    width: 50vh;
+}
+
+#Machine figcaption {
+    margin-top: -37vh;
+    padding-left: 2vh;
+}
+
+#Para {
+    width: 56%;
+    float: right;
+    margin-top: -24vh;
+}
+
+#Para h2 {
+    padding-right: 70vh;
+    padding-bottom: 6vh;
+    padding-left: -4vh;
+    padding-top: 2vh;
+}
+
+#Para p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 6vh;
+    padding-left: 5vh;
+}
+
+#Para input {
+    margin-left: 5vh;
+}
+
+
+/*Huitième section Responsive*/
+
+#Responsives {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-left: 10vh;
+    margin-top: 6vh;
+    display: inline-flex;
+}
+
+#One {
+    width: 33%;
+    text-align: center;
+}
+
+#One h2 {
+    color: rgb(87, 83, 83);
+    padding-top: 5vh;
+    margin-top: 4vh;
+    margin-left: 5vh;
+    padding-bottom: 2vh;
+    margin-right: -7vh;
+}
+
+#One input {
+    margin-left: 20vh;
+    margin-top: 4vh;
+}
+
+#One p {
+    color: grey;
+    text-align: justify;
+    margin-left: -16vh;
+    padding-left: 37vh;
+    margin-right: 0vh;
+    padding-top: 4vh;
+}
+
+#Two {
+    width: 67%;
+    margin-left: 4vh;
+}
+
+#Two img {
+    padding-bottom: 2vh;
+    margin-top: 2vh;
+    margin-right: 4vh;
+    width: 65vh;
+    padding-left: 3vh;
+}
+
+
+/*Neuvième section SAYNA*/
+
+#Adresse {
+    background-color: rgb(243, 239, 239);
+    padding-top: 4vh;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    padding-left: 2vh;
+    margin-right: 4vh;
+    padding-bottom: 2vh;
+}
+
+#SAYNA {
+    width: 40.33%;
+    padding-left: 25vh;
+    padding-right: -6vh;
+}
+
+#SAYNA p {
+    padding-left: 12vh;
+    padding-right: 2vh;
+    text-align: justify;
+}
+
+#SAYNA figure {
+    width: 20%;
+    padding-left: 2vh;
+    margin-top: 2vh;
+}
+
+#Adresse p {
+    color: grey;
+    padding-top: 0vh;
+    text-align: justify;
+    padding-left: 3vh;
+}
+
+#Adresse h3 {
+    color: rgb(44, 138, 118);
+    padding-left: 23vh;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+    padding-right: 10vh;
+}
+
+#INFO {
+    width: 18.33%;
+    text-align: center;
+}
+
+#INFO h3 {
+    text-align: left;
+    padding-left: 4vh;
+}
+
+#CONTACT {
+    width: 41.33%;
+    text-align: left;
+    padding-left: -8vh;
+}
+
+#CONTACT h3 {
+    text-align: left;
+    padding-left: 2vh;
+}
+
+#CONTACT p {
+    padding-left: -1vh;
+    text-align: left;
+}
+
+
+/*Footer de la page*/
+
+footer {
+    background-color: #FFFFFF;
+    width: 100%;
+    display: inline-flex;
+}
+
+#Text {
+    text-align: left;
+    padding-left: 30vh;
+    width: 50%;
+}
+
+#Text p {
+    color: grey;
+    padding-top: 2vh;
+    text-align: left;
+    padding-left: 0vh;
+}
+
+#Icons {
+    float: right;
+    width: 50%;
+    padding-top: 2vh;
+    padding-left: 18vh;
+}
+
+#Icons li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+}
